@@ -29,7 +29,7 @@ C#을 활용한 항공예매프로그램입니다.
 ![예약하기](https://user-images.githubusercontent.com/106054507/183290690-96681495-60a7-4b34-b11e-9708b0b9d52b.PNG)
 #### 결제하기
 ![결제하기](https://user-images.githubusercontent.com/106054507/183290702-ef7a1483-9c10-47f1-818a-199e1221bed6.PNG)
-#### 
+#### 예약확인
 ![예약확인](https://user-images.githubusercontent.com/106054507/183290712-a398a4f6-9b4e-477c-bfec-8fb6ee2ce7a6.PNG)
 
 #### 클라이언트(관리자)
