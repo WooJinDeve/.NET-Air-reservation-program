@@ -3,10 +3,13 @@
 # 소개
 2022-05-10 ~ 2022-05-12 
 
-C#(소켓통신)을 활용한 항공예매프로그램입니다.
-
-[항공 API](https://www.data.go.kr/data/15000126/openapi.do)
-
+C#을 활용한 항공예매프로그램입니다.
+  
+● [항공 API](https://www.data.go.kr/data/15000126/openapi.do)
+  
+● 소켓통신 
+  
+● C# <=> DATABASE 
   
 # 사용기술
 <img src="https://img.shields.io/badge/C Sharp-239120?style=for-the-badge&logo=C Sharp%2B%2B&logoColor=white">
