@@ -19,6 +19,7 @@ C#을 활용한 항공예매프로그램입니다.
 <img src="https://img.shields.io/badge/Visual Studio-5C2D91?style=for-the-badge&logo=Visual Studio&logoColor=white"> 
 
 # ERD
+![db](https://user-images.githubusercontent.com/106054507/183291416-510afd9c-e337-403c-8201-afa4670812de.PNG)
 
 # 프로그램
 
