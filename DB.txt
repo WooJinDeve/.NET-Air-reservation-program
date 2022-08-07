@@ -1,0 +1,22 @@
+CREATE TABLE [dbo].[AirPlane] (
+    [AirNum]              INT           IDENTITY (1, 1) NOT NULL,
+    [DomesticNum]         VARCHAR (MAX) NOT NULL,
+    [AirlineKorean]       VARCHAR (MAX) NOT NULL,
+    [Arrivalcity]         VARCHAR (MAX) NOT NULL,
+    [Startcity]           VARCHAR (MAX) NOT NULL,
+    [DomesticArrivalTime] DATETIME      NOT NULL,
+    [DomesticStartTime]   DATETIME      NOT NULL,
+    [economy]             INT           NOT NULL,
+    [business]            INT           NOT NULL,
+    CONSTRAINT [PK_AirPlane] PRIMARY KEY CLUSTERED ([AirNum] ASC)
+);
+
+CREATE TABLE [dbo].[Member] (
+    [Name]        VARCHAR (MAX) NOT NULL,
+    [Phone]       VARCHAR (MAX) NOT NULL,
+    [AirPortName] VARCHAR (MAX) NOT NULL,
+    [AirPlaneNum] VARCHAR (MAX) NOT NULL,
+    [Airline]     VARCHAR (MAX) NOT NULL,
+    [Date]        VARCHAR (MAX) NOT NULL,
+    [Price]       VARCHAR (MAX) NOT NULL
+);
