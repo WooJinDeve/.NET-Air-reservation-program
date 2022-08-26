@@ -1,27 +1,92 @@
-<div align="center">
+## 소개
+- **`항공 API`**를 활용한 항공예매프로그램입니다.
+  - `C#` + `WinForm`
+  - `Sokect`
+- **프로젝트 기간**
+  - `2022-05-10 ~ 2022-05-12`
 
-# 소개
-C#을 활용한 항공예매프로그램입니다.
-  
-2022-05-10 ~ 2022-05-12 동안 공공 데이터와 소켓통신을 활용 제작하였습니다. 
+## 프로젝트 설정
+- **Visual Studio 2022** 
+  - **Download**
+    - [https://visualstudio.microsoft.com/ko/vs/whatsnew/](https://visualstudio.microsoft.com/ko/vs/whatsnew/)
+  - **Project Template**
+    - `Client` : `WinForm`
+       - `새 프로젝트 만들기` -> `Windows Form 앱(.NET Framwork)` 
+    - `Server` : `Console App`
+       - `새 프로젝트 만들기` -> `콘솔 앱(.NET Framwork)` 
+  - **Open API**
+    - [항공 API URL](https://www.data.go.kr/data/15000126/openapi.do)
+ - **MSSQL DataBase**
+   - **Download**
+     - [https://www.microsoft.com/ko-kr/sql-server/sql-server-downloads](https://www.microsoft.com/ko-kr/sql-server/sql-server-downloads)
 
-  
-● [항공 API](https://www.data.go.kr/data/15000126/openapi.do)
-  
-● 소켓통신 
-  
-● C# <=> DATABASE 
-  
-# 사용기술
-<img src="https://img.shields.io/badge/C Sharp-239120?style=for-the-badge&logo=C Sharp%2B%2B&logoColor=white">
-<img src="https://img.shields.io/badge/mssql-CC2927?style=for-the-badge&logo=Microsoft SQL Server&logoColor=white"> 
-<img src="https://img.shields.io/badge/.net-512BD4?style=for-the-badge&logo=.net&logoColor=white"> 
-<img src="https://img.shields.io/badge/Visual Studio-5C2D91?style=for-the-badge&logo=Visual Studio&logoColor=white"> 
+<details>
+<summary><h2>파일 구조 </h2></summary>
 
-# ERD
+``` 
+C-Sharp-Air-reservation-program-main
+│  DB.txt
+│  README.md
+├─client(manager)
+│  │  MainForm.cs
+│  │  MainForm.Designer.cs
+│  │  MainForm.resx
+│  │  Member.cs
+│  │  Program.cs
+│  ├─Control
+│  │      WbControl.cs
+│  ├─Data
+│  │      Airport.cs
+│  ├─Database
+│  │      WbDB.cs
+│  └─network
+│          Packet.cs
+│          WbClient.cs
+├─client(user)
+│  │  Program.cs
+│  ├─Control
+│  │      WbControl.cs
+│  ├─Data
+│  │      Airport.cs
+│  │      Member.cs
+│  ├─Form
+│  │      CautionForm.cs
+│  │      Confirm.cs
+│  │      MainForm.cs
+│  │      ProcessForm.cs
+│  │      Reservation.cs
+│  │      WbCrossThread.cs
+│  ├─NetWork
+│  │      Packet.cs
+│  │      WbClient.cs
+│  └─Resources
+│          images.png
+└─server
+    │  Program.cs
+    ├─Control
+    │      Control.cs
+    │      WbDocument.cs
+    ├─Data
+    │      AirPort.cs
+    │      AirPortPasing.cs
+    │      Member.cs
+    ├─DataBase
+    │      WbDB.cs
+    │      WbQuery.cs
+    └─Network
+            Packet.cs
+            WbServer.cs
+```
+</details>
+
+<details>
+<summary><h2>ERD </h2></summary>
+
 ![db](https://user-images.githubusercontent.com/106054507/183291416-510afd9c-e337-403c-8201-afa4670812de.PNG)
+</details>
 
-# 프로그램
+<details>
+<summary><h2>프로그램</h2></summary>
 
 #### 클라이언트(사용자)
 ![Main](https://user-images.githubusercontent.com/106054507/183290648-7a145831-da29-4e13-a811-dd6a86c3eba9.PNG)
@@ -35,5 +100,4 @@ C#을 활용한 항공예매프로그램입니다.
 #### 클라이언트(관리자)
 ![관리자 Main](https://user-images.githubusercontent.com/106054507/183290715-c8c40f99-2685-4f47-aacd-14e01fb47d75.PNG)
 
-
-</div>
+</details>
