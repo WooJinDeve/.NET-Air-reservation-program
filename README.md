@@ -86,18 +86,17 @@ C-Sharp-Air-reservation-program-main
 </details>
 
 <details>
+<summary><h2>프로그램 구조 </h2></summary>
+
+![image](https://user-images.githubusercontent.com/106054507/186935921-43108914-b955-40f0-ab9f-cec32354fef2.png)
+
+</details>
+
+
+<details>
 <summary><h2>프로그램</h2></summary>
 
-#### 클라이언트(사용자)
-![Main](https://user-images.githubusercontent.com/106054507/183290648-7a145831-da29-4e13-a811-dd6a86c3eba9.PNG)
-#### 예약하기
-![예약하기](https://user-images.githubusercontent.com/106054507/183290690-96681495-60a7-4b34-b11e-9708b0b9d52b.PNG)
-#### 결제하기
-![결제하기](https://user-images.githubusercontent.com/106054507/183290702-ef7a1483-9c10-47f1-818a-199e1221bed6.PNG)
-#### 예약확인
-![예약확인](https://user-images.githubusercontent.com/106054507/183290712-a398a4f6-9b4e-477c-bfec-8fb6ee2ce7a6.PNG)
+![image](https://user-images.githubusercontent.com/106054507/186931157-c936bd9e-a34d-4164-880a-0afc5c34f3aa.png)
 
-#### 클라이언트(관리자)
-![관리자 Main](https://user-images.githubusercontent.com/106054507/183290715-c8c40f99-2685-4f47-aacd-14e01fb47d75.PNG)
 
 </details>
